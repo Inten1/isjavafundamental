@@ -11,6 +11,6 @@ Version 1.1
 
 public class CobaClass {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println("COBA CLASS");
     }
 }
