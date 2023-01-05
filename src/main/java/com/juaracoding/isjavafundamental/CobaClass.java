@@ -6,7 +6,7 @@ Build #IC-223.8214.52, built on December 20, 2022
 Java Developer
 Created on 05/01/2023 16:23
 @Last Modified 05/01/2023 16:23
-Version 1.1
+Version 1.0
 */
 
 public class CobaClass {
