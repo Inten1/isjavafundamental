@@ -15,42 +15,42 @@ public class Praktikum2 {
     */
     public static void main(String[] args) {
 
-//            Scanner sn= new Scanner(System.in);
-//
-//            int intX = 0;
-//            int intData = 0;
-//            float floAvg = 0;
-//
-//            System.out.println("Masukan angka apapun yang anda inginkan: ");
-//            do{
-//                try{
-//                    intX++;
-//                    intData = sn.nextInt();
-//                    floAvg+= intData;
-//                }catch(Exception e){
-//                    floAvg/= intX - 1;
-//                    System.out.println("Rata-rata: "+floAvg);
-//                    intX= -1;
-//                }
-//            }while(intX!=-1);
-//    }
-//}
+            Scanner sc= new Scanner(System.in);
+
+            int intX = 0;
+            int intData = 0;
+            float floAvg = 0;
+
+            System.out.println("Masukan angka: ");
+            do{
+                try{
+                    intX++;
+                    intData = sc.nextInt();
+                    floAvg+= intData;
+                }catch(Exception e){
+                    floAvg/= intX - 1;
+                    System.out.println("Rata-rata: "+floAvg);
+                    intX= -1;
+                }
+            }while(intX!=-1);
+    }
+}
 
         /*
 	        Soal Nomor 2 Praktikum 2 Java Fundamental
         */
 
-        Scanner sc = new Scanner (System.in);
-        String names;
-
-        System.out.println("Masukkan nama");
-        names = sc.nextLine () ;
-        String[]ArrayNames = names.split (" ");
-
-        for(int i = 0; i< ArrayNames . length-0; i++)
-            System.out.print (ArrayNames [1].toUpperCase().charAt(0)+" . ") ;
-    }
-}
+//        Scanner sc = new Scanner (System.in);
+//        String names;
+//
+//        System.out.println("Masukkan nama");
+//        names = sc.nextLine () ;
+//        String[]ArrayNames = names.split (" ");
+//
+//        for(int i = 0; i< ArrayNames . length-0; i++)
+//            System.out.print (ArrayNames [1].toUpperCase().charAt(0)+" . ") ;
+//    }
+//}
 
 
 
