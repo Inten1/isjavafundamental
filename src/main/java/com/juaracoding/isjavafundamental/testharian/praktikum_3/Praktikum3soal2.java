@@ -10,6 +10,9 @@ Version 1.1
 */
 
 import java.util.Random;
+/*
+	Soal Nomor 1 Praktikum 3 Java Fundamental
+*/
 
 public class Praktikum3soal2 {
     public static void main(String[] args) {
