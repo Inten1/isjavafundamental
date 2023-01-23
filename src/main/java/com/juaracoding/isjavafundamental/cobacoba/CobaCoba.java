@@ -9,8 +9,18 @@ Created on 13/01/2023 19:05
 Version 1.1
 */
 
+import java.util.Random;
+
 public class CobaCoba {
     public static void main(String[] args) {
-        System.out.println("COBA COBA");
-    }
-}
+
+                for (int i=0; i<1; i++){
+                    for (int j=0;j<16; j++){
+                        Random r = new Random();
+                        char huruf = (char) (r.nextInt(26)+'A');
+                        System.out.print(huruf+" ");
+                    }
+                    System.out.println();
+                }
+            }
+        }
